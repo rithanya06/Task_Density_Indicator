@@ -73,7 +73,7 @@ Enter tokens in line 3: 3
 
 ---
 
-## 📈 Sample Output
+##  Sample Output
 
 Line    Tokens   Density   Token_Heavy
 1       4        4.00      NO
@@ -82,7 +82,7 @@ Line    Tokens   Density   Token_Heavy
 
 ---
 
-## ⚙️ Threshold Justification
+##  Threshold Justification
 
 A threshold of **5 tokens per line** is selected based on standard coding practices. Code exceeding this value tends to be dense and harder to read, debug, and maintain.
 
@@ -94,7 +94,7 @@ Token Density can be used in compiler optimization and static code analysis tool
 
 ---
 
-## 📂 Files Included
+##  Files Included
 
 * `RA2311026050117_Rithanya_HoT.c`
 * `RA2311026050117_Rithanya_Output.png`
