@@ -1,25 +1,3 @@
-/*
-============================================================
-  HoT SKILL ASSESSMENT - PROBLEM 1
-  Token Density Indicator (Lexical Analysis)
-============================================================
-  Name    : Rithanya M
-  Reg No  : RA2311026050117
-  Tool    : C Language (Dev C++)
-  Problem : Lexical Analysis - Token Density Indicator
-
-  DESCRIPTION:
-  A compiler development team collects lexical analysis logs
-  containing raw tokens and line numbers. This program:
-    - Derives Token_Density (tokens per line)
-    - Creates flag Is_Token_Heavy if density > threshold
-    - Shows line-wise token distribution
-    - Classifies code complexity level
-
-  HOTs Goal: Design complexity indicators from lexical data
-============================================================
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -114,22 +92,3 @@ int main() {
 
     return 0;
 }
-
-/*
-============================================================
-  SAMPLE INPUT:
-    Enter number of source lines: 5
-    Line 1: 7
-    Line 2: 4
-    Line 3: 8
-    Line 4: 3
-    Line 5: 6
-
-  EXPECTED OUTPUT:
-    Total Lines        : 5
-    Total Tokens       : 28
-    Token Density      : 5.60 tokens/line
-    Complexity Level   : HIGH (Complex / Dense Code)
-    Is_Token_Heavy     : TRUE --> Token Heavy Code Detected!
-============================================================
-*/
